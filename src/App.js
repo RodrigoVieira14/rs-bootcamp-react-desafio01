@@ -1,10 +1,17 @@
-import React from "react";
+// import React from "react";
+import React, { Component } from "react";
+
 import "./App.css";
 
-import TechList from "./components/TechList";
+import PostList from "./components/PostList";
 
-function App() {
-  return <TechList />;
+class App extends Component {
+  render() {
+    return(
+      <PostList />
+    )
+  }
 }
 
 export default App;
+
